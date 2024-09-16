@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'sinka3',
     loadChildren: () => import('./sinka3/sinka3.module').then( m => m.Sinka3PageModule)
   },
+  {
+    path: 'takra',
+    loadChildren: () => import('./takra/takra.module').then( m => m.TakraPageModule)
+  },
 ];
 
 @NgModule({

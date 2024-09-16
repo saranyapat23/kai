@@ -19,20 +19,24 @@ export class Sinka3Page implements OnInit {
     this.navCtrl.navigateForward('/praped1')
   }
 
+  goToTakra(){
+    this.navCtrl.navigateForward('/takra')
+  }
+
   sinka5 = [
     {
       id: 1,
       name: 'ชินรามยอน',
       price: 27,
       detail: 'Chinramyon',
-      imageURL: 'https://media.discordapp.net/attachments/1118669200836272149/1284191233870397482/Remove-bg.ai_1726245443075.png?ex=66e5bbc9&is=66e46a49&hm=fc9c6959be1eb43842d29ba8db77f335cbaf589827770e3286a6200af06b5a69&=&format=webp&quality=lossless&width=670&height=670'
+      imageURL: '../../assets/ramyoung.webp'
     },
     {
       id: 3,
       name: 'มาม่าต้มยำกุ้ง',
       price: 8,
       detail: 'Mama Shrimp Tom Yum Flavor',
-      imageURL: 'https://media.discordapp.net/attachments/1118669200836272149/1284191621692391485/Remove-bg.ai_1726245533061.png?ex=66e5bc25&is=66e46aa5&hm=1918b951be8a797960bc5d7635fbfd95c2a7f4fc66d11543eade900de9a08d68&=&format=webp&quality=lossless&width=437&height=437'
+      imageURL: '../../assets/mamakung.webp'
     },
     {
       id: 5,
